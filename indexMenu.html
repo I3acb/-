@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Kaph&amp;display=swap" rel="stylesheet">
     <link href="./style.css" rel="stylesheet">
     <link rel="stylesheet" href="./styleMune.css">
+    <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
@@ -45,15 +46,15 @@
             <div class="filter">
                 <h3>Меню</h3>
                 <ul>
-                    <li><button class="btn-filter">Бургеры</button></li>
-                    <li><button class="btn-filter">Куринца</button></li>
-                    <li><button class="btn-filter">Картошка</button></li>
-                    <li><button class="btn-filter">Соусы</button></li>
-                    <li><button class="btn-filter">Напитки</button></li>
+                    <li><button class="btn-filter" data-target="#burgers">Бургеры</button></li>
+                    <li><button class="btn-filter" data-target="#chicken">Куринца</button></li>
+                    <li><button class="btn-filter" data-target="#potatoes">Картошка</button></li>
+                    <li><button class="btn-filter" data-target="#sauces">Соусы</button></li>
+                    <li><button class="btn-filter" data-target="#drinks">Напитки</button></li>
                 </ul>
             </div>
             <div class="eat">
-                <div class="filter-class">
+                <div id="burgers" class="filter-class">
                     <H1>Бургер</H1>
                     <div class="nameAndAll">
                         <div class="strokaMenu">
@@ -66,7 +67,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="filter-class">
+                <div id="chicken" class="filter-class">
                     <H1>Куринца</H1>
                     <div class="nameAndAll">
                         <div class="strokaMenu">
@@ -98,7 +99,7 @@
                                 <img src="images/photo_5391292977621625590_y.jpg" alt="Грудка куринная">
                                 <p class="nameAndPriseOrder">Грудка куринная</p>
                                 <button class="btnOrder">Беру!</button>
-                                <p class="nameAndPriseOrder">259 руб.</p>
+                                <p class="nameAndPriseOrder">249 руб.</p>
                             </div>
                         </div>
                         <div class="strokaMenu">
@@ -106,7 +107,7 @@
                                 <img src="images/яйцо вар.webp" alt="Молодая курица">
                                 <p class="nameAndPriseOrder">Молодая куица</p>
                                 <button class="btnOrder">Беру!</button>
-                                <p class="nameAndPriseOrder">259 руб.</p>
+                                <p class="nameAndPriseOrder">119 руб.</p>
                             </div>
                         </div>
                         <div class="strokaMenu">
@@ -114,12 +115,12 @@
                                 <img src="images/яйцо жар.webp" alt="Молодая куица V2">
                                 <p class="nameAndPriseOrder">Молодая куица V2</p>
                                 <button class="btnOrder">Беру!</button>
-                                <p class="nameAndPriseOrder">259 руб.</p>
+                                <p class="nameAndPriseOrder">99 руб.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="filter-class">
+                <div id="potatoes" class="filter-class">
                     <H1>Картошка</H1>
                     <div class="nameAndAll">
                         <div class="strokaMenu">
@@ -127,7 +128,7 @@
                                 <img src="images/image2-1080x783.jpeg" alt="Фри">
                                 <p class="nameAndPriseOrder">Фри</p>
                                 <button class="btnOrder">Беру!</button>
-                                <p class="nameAndPriseOrder">259 руб.</p>
+                                <p class="nameAndPriseOrder">129 руб.</p>
                             </div>
                         </div>
                         <div class="strokaMenu">
@@ -135,7 +136,7 @@
                                 <img src="images/60368493.jpg" alt="Деревенская">
                                 <p class="nameAndPriseOrder">Деревенская</p>
                                 <button class="btnOrder">Беру!</button>
-                                <p class="nameAndPriseOrder">259 руб.</p>
+                                <p class="nameAndPriseOrder">199 руб.</p>
                             </div>
                         </div>
                         <div class="strokaMenu">
@@ -143,12 +144,12 @@
                                 <img src="images/cafce8c067035c7134dd495a05a98897.jpg" alt="Ментрдотель">
                                 <p class="nameAndPriseOrder">Ментрдотель</p>
                                 <button class="btnOrder">Беру!</button>
-                                <p class="nameAndPriseOrder">259 руб.</p>
+                                <p class="nameAndPriseOrder">159 руб.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="filter-class">
+                <div id="sauces" class="filter-class">
                     <H1>Соусы</H1>
                     <div class="nameAndAll">
                         <div class="strokaMenu">
@@ -169,7 +170,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="filter-class">
+                <div id="drinks" class="filter-class">
                     <H1>Напитки</H1>
                     <div class="nameAndAll">
                         <div class="strokaMenu">
@@ -203,4 +204,3 @@
     </div>
 </body>
 </html>
-<html>

@@ -86,6 +86,8 @@ img{
 }
 
 .btnOrder{
+    width: 130.7px;
+    height: 30px;
     color: aliceblue;
     font-size: 20px;
     background-color: rgba(255, 72, 72, 1);
@@ -123,3 +125,4 @@ h1 {
 .strokaMenu{
     flex: 0 0 auto;  
 }
+
