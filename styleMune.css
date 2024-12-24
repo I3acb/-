@@ -126,3 +126,157 @@ h1 {
     flex: 0 0 auto;  
 }
 
+/* корзина */
+.korzina-obertka{
+    display: none; 
+    position: fixed;
+    top: 0; /* Привязка к верхнему краю */
+    left: 0; /* Привязка к левому краю */
+    background-color: rgba(0, 0, 0, 0.456);
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .korzina{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    background-color: rgba(243, 238, 217);
+    width: 44%;
+    height: 90%;
+    border-radius: 25px;
+    padding: 10px;
+    align-items: center;
+  }
+  
+  .exit{
+    position: relative;
+    left: 45%;
+    bottom: 4%;
+    margin: 0;
+    width: 34px;
+    height: 17px;
+    border: none;
+    background: none;
+  }
+  
+  .exit:active{
+    transform: scale(1.5)
+  }
+  
+  .exit:hover{
+    cursor: pointer;
+  }
+  
+  .krest{
+    width: 100%;
+    height: auto;
+  }
+  
+  .txt{
+    font-weight: bold;
+    text-decoration-color: rgb(130, 130, 130);
+    font-size: 27px;
+  }
+  
+  .shapka{
+    margin-bottom: 10px;
+    width: 96%;
+    height: 84%;
+    border: 0.75px solid rgb(130, 130, 130);
+  
+  }
+  
+  .shapkaInner{
+    display: grid;
+    grid-template-columns: 1fr 0.25fr 0.25fr 0.25fr;
+  }
+  
+  .shapkaInnerIn{
+    border: 1px solid rgb(130, 130, 130);
+    border-top: none;
+    border-left: none;
+  }
+  
+  #tut{
+    border-right: none;
+  }
+
+  .one {
+    display: grid;
+    grid-template-columns: 1fr 0.25fr 0.25fr 0.25fr;
+    border-bottom: 1px solid rgb(130, 130, 130);
+  }
+  
+  .one_name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    
+    
+  }
+  .one_name_img{
+    width: 100px;
+    height: max-content;
+  }
+  
+  .prise{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .counter-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+  }
+  
+  .priseAll{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .oplata{
+    border: 1px solid rgba(130, 130, 130, 0.544);
+    border-radius: 10px;
+    width: 96%;
+    height: 6%;
+    display: grid;
+    grid-template-columns: 0.6fr 0.4fr;
+    align-items: center;
+  }
+  
+  .orderPrise{
+    margin: 5px;
+  }
+  
+  #doOrder {
+    border-radius: 25px;
+    border-top-right-radius: 12px;
+    border-end-end-radius: 12px;
+    background-color: rgba(255, 72, 72, 1);
+    height: 100%;
+    border: none;
+  }
+  
+  #doOrder:active{
+    transform: scaleX(1.1)
+  }
+  
+  #doOrder:hover{
+    cursor: pointer;
+  }
+
+  .allZakaz{
+    overflow-y: auto;
+    max-height: 96%; 
+  }

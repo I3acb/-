@@ -15,6 +15,7 @@
 
 <body>
     <div class="main-container">
+
         <div class="background-layer-1"></div>
         <div class="background-layer-2"></div>
 
@@ -23,7 +24,7 @@
                 <a href="#" class="header-logo-company"></a>
             </div>
 
-            <a href="index1.html" class="header-logo-basket"></a>
+            <button class="header-logo-basket"></button>
             <a href="#" class="header-menu">Меню</a>
             <a href="#" class="header-restaurants">Рестораны</a>
             <a href="#" class="header-contacts">Контакты</a>
@@ -80,7 +81,8 @@
                         </div>
                         <div class="strokaMenu">
                             <div class="food">
-                                <img src="images/fried-chicken-legs-over-white-background-85134547.webp" alt="Куринные ножки">
+                                <img src="images/fried-chicken-legs-over-white-background-85134547.webp"
+                                    alt="Куринные ножки">
                                 <p class="nameAndPriseOrder">Куринные ножки</p>
                                 <button class="btnOrder">Беру!</button>
                                 <p class="nameAndPriseOrder">179 руб.</p>
@@ -202,5 +204,25 @@
             </div>
         </div>
     </div>
+    <div class="korzina-obertka" style="display: none;">
+        <div class="korzina">
+            <div class="txt">Корзина</div>
+            <button id="exit" class="exit"><img class="krest" src="images/icons8-крестик-78.png" alt="крестик"></button>
+            <div class="shapka">
+                <div class="shapkaInner">
+                    <div class="shapkaInnerIn">Название</div>
+                    <div class="shapkaInnerIn">Цена</div>
+                    <div class="shapkaInnerIn">Количество</div>
+                    <div id="tut" class="shapkaInnerIn">Итого</div>
+                </div>
+                <div class="allZakaz"></div>
+            </div>
+            <div class="oplata">
+                <div class="orderPrise">Итоговая сумма: руб.</div>
+                <button id="doOrder">Сделать заказ</button>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>

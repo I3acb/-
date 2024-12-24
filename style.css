@@ -106,6 +106,7 @@ html, body {
   top: 17px;
   right: 20px;
   overflow: hidden;
+  border: none;
 }
 
 .header-menu {
